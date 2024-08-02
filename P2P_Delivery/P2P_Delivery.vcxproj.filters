@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\models">
+      <UniqueIdentifier>{519e2e8a-56c1-42ca-8adf-2bebca86f92b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\services">
+      <UniqueIdentifier>{8425d17c-a0d8-42a2-898f-fe764ebe9d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\repositories">
+      <UniqueIdentifier>{2cce0968-338c-49e5-8515-6002f6126abf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\models">
+      <UniqueIdentifier>{fe8e6749-2964-4122-a57c-4d8ecb0036fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\services">
+      <UniqueIdentifier>{fad3c50d-f668-4938-b41b-7d965bfff66b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\repositories">
+      <UniqueIdentifier>{13b21b14-7c62-453d-bfcb-c8d39da6a0a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\consts">
+      <UniqueIdentifier>{fb9b26cc-d10a-446d-bdd5-9e8714fc167e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="customer.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="driver.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="Order.cpp">
+      <Filter>Source Files\models</Filter>
+    </ClCompile>
+    <ClCompile Include="drivers_repo.cpp">
+      <Filter>Source Files\repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="item_list.cpp">
+      <Filter>Source Files\repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="orders_repo.cpp">
+      <Filter>Source Files\repositories</Filter>
+    </ClCompile>
+    <ClCompile Include="delivery_service.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="default_driver_selection.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="notification_service.cpp">
+      <Filter>Source Files\services</Filter>
+    </ClCompile>
+    <ClCompile Include="constants.hpp">
+      <Filter>Source Files\consts</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="customer.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="order.h">
+      <Filter>Header Files\models</Filter>
+    </ClInclude>
+    <ClInclude Include="delivery_service.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="i_notification_service.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="notification_service.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="drivers_repo.h">
+      <Filter>Header Files\repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="orders_repo.h">
+      <Filter>Header Files\repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="item_list.h">
+      <Filter>Header Files\repositories</Filter>
+    </ClInclude>
+    <ClInclude Include="i_driver_selection.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+    <ClInclude Include="default_driver_selection.h">
+      <Filter>Header Files\services</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
